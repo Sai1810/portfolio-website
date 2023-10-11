@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body{
+  min-height: 100vh;
+    background-color: black;
+}
+header{
+    font-family: sans-serif;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+background-color: black;
+    height: 40px;
+    padding: 30px 60px;
+    width: 100%;
+    z-index: 100;
+
+
+}
+.logo {
+    color: whitesmoke;
+ font-size: 29px;
+
+}
+.nav a{
+    color: whitesmoke;
+    font-family: sans-serif;
+    padding: 6px 15px;
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition:.5s;
+    position:relative;
+
+}
+
+nav a:hover{
+    color: #333333;
+}
+nav a span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+     background-color: #ffffff;
+    border-radius: 30px;
+    z-index: -1;
+    transform: scale(0);
+    transition:.5s;
+
+}
+.nav{
+    z-index: 200;
+    position: sticky;
+}
+.nav a:hover span
+{
+    transform: scale(1);
+
+}
+.parallax{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+background-image: url("w1.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    color: whitesmoke;
+}
+#text{
+    font-size: 75px;
+    color: #00b0b3;
+    position: absolute;
+ text-shadow: 2px;
+
+
+}
+.sec{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    color: whitesmoke;
+
+}
+
+
+.h{
+    margin: 0px;
+    height: 1px;}
+.sec h1 {
+    padding: 90px 180px;
+    margin: 10px 10px;
+    font-size: 37px;
+
+}
+.edu{
+    background-color: black;
+    text-align:center ;
+}
+.edu h1{
+    color: whitesmoke;
+    font-family: sans-serif;
+    padding: 90px 180px;
+    margin: 10px 10px;
+    font-size: 47px;
+}
+.nit{
+    background-color: gray;
+    padding: 30px 20px;
+    margin: 20px 50px;
+    width:400px;
+    box-shadow: 10px 10px lightblue;
+    border-radius: 50px;
+    display: inline-block;}
+
+.nit{
+
+    padding: 20px 30px;
+    margin: 10px 10px;
+}
+.nit h4{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.nit h6{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.lm {
+    background-color: gray;
+    padding: 10px 30px;
+    margin: 20px 20px;
+    width:400px;
+    box-shadow: 10px 10px lightblue;
+    border-radius: 50px;
+    display: inline-block;
+
+}
+
+.lm H6{
+    font-size: 23px;
+    scroll-padding-bottom: 20px;
+    font-family: Arial,sans-serif;
+
+}
+.lm p1{
+    font-family: Arial,sans-serif;
+    padding-top: 10px;
+
+}
+.about{
+    display: inline-block;
+    padding: 0 120px;
+}
+.lm ul {
+    padding-left: 20px;
+}
+.lm h4{
+    padding: 10px 10px;
+    font-size: 23px;
+}
+.container {
+    margin: 20px 30px;
+    width: 300px;
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+    box-shadow: #00b0b3b(2 4 6);
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    color: black;
+    background-color: gray;
+    border-radius: 21px;
+
+}
+
+
+.container img {
+    max-width: 100%;  Make sure the image doesn't exceed the container width */
+    height: auto; pect ratio ;
+}
+
+.container p {
+    margin-top: 10px;
+
+
+}
+.services{
+    text-align: center;
+}
+.services h1{
+
+    color: whitesmoke;
+    font-family: sans-serif;
+    margin: 10px 10px;
+    font-size: 47px;
+    padding: 90px 180px;
+
+}
+
+
+
+
+
+
+
+.contact h5{
+    color: whitesmoke;
+    font-family: sans-serif;
+    padding: 20px 30px;
+    margin: 10px 10px;
+    font-size: 47px;
+
+}
+.contact a{
+    padding: 30px 40px ;
+    margin: 30px 30px;
+}
+.contact{
+    text-align: center;
+}
